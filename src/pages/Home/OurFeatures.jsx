@@ -61,9 +61,9 @@ const OurFeatures = () => {
                                 
                                 {/* Bottom Elements */}
                                 <div className="flex items-center justify-between mt-8">
-                                    <div className="w-12 h-12 bg-gray-300 rounded-full"></div>
-                                    <div className="w-12 h-12 bg-blue-500 rounded-full"></div>
-                                    <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center">
+                                    <div className="w-18 h-18 bg-gray-300 rounded-full"></div>
+                                    <div className="w-18 h-18 bg-blue-500 rounded-full"></div>
+                                    <div className="w-18 h-18 bg-teal-500 rounded-full flex items-center justify-center">
                                         <div className="flex gap-1">
                                             <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
                                             <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
