@@ -1,5 +1,4 @@
-import React from "react";
-
+import img1 from '../../assets/image/7a489663-af19-42ae-9c15-dc2ccfc3ea54.png'
 const Banner = () => {
   return (
     <section className="bg-teal-50 min-h-screen flex items-center px-4 sm:px-6 lg:px-8 py-12 lg:py-0">
@@ -69,7 +68,7 @@ const Banner = () => {
             {/* Person Image */}
             <div className="relative z-10 flex justify-center items-end h-full">
               <img
-                src="https://i.ibb.co/BVZZ5Kmg/3.png"
+                src={img1}
                 alt="Person with hoodie and glasses"
                 className="w-full h-full object-cover object-top rounded-2xl lg:rounded-3xl"
               />

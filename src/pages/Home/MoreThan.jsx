@@ -11,46 +11,46 @@ const MoreThan = () => {
                     </h2>
                 </div>
 
-                {/* Company Logos */}
+
                 <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-8 lg:gap-12 xl:gap-16">
                     
-                    {/* Unsplash */}
-                    <div className="flex items-center gap-2 sm:gap-3 text-gray-500 hover:text-gray-700 transition-colors">
+
+                    <div className="flex items-center gap-2 sm:gap-3 text-gray-400 hover:text-gray-700 transition-colors">
                         <div className="w-6 h-6 sm:w-8 sm:h-8 bg-gray-400 rounded-sm flex items-center justify-center">
                             <div className="w-3 h-3 sm:w-4 sm:h-4 bg-white rounded-full"></div>
                         </div>
-                        <span className="text-lg sm:text-xl lg:text-2xl font-semibold">Unsplash</span>
+                        <span className="text-lg sm:text-xl lg:text-2xl font-semibold ">Unsplash</span>
                     </div>
 
-                    {/* Notion */}
-                    <div className="flex items-center gap-2 sm:gap-3 text-gray-500 hover:text-gray-700 transition-colors">
-                        <div className="w-6 h-6 sm:w-8 sm:h-8 bg-gray-800 rounded flex items-center justify-center">
+
+                    <div className="flex items-center gap-2 sm:gap-3 text-gray-400 hover:text-gray-700 transition-colors">
+                        <div className="w-6 h-6 sm:w-8 sm:h-8 bg-gray-400 rounded flex items-center justify-center">
                             <span className="text-white text-xs sm:text-sm font-bold">N</span>
                         </div>
                         <span className="text-lg sm:text-xl lg:text-2xl font-semibold">Notion</span>
                     </div>
 
-                    {/* INTERCOM */}
-                    <div className="flex items-center gap-2 sm:gap-3 text-gray-500 hover:text-gray-700 transition-colors">
+
+                    <div className="flex items-center gap-2 sm:gap-3 text-gray-400 hover:text-gray-700 transition-colors">
                         <div className="w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center">
-                            <div className="w-full h-full bg-blue-500 rounded-sm flex items-center justify-center">
+                            <div className="w-full h-full bg-gray-400 rounded-sm flex items-center justify-center">
                                 <div className="w-3 h-3 sm:w-4 sm:h-4 border-2 border-white rounded-full"></div>
                             </div>
                         </div>
                         <span className="text-lg sm:text-xl lg:text-2xl font-semibold">INTERCOM</span>
                     </div>
 
-                    {/* descript */}
-                    <div className="flex items-center gap-2 sm:gap-3 text-gray-500 hover:text-gray-700 transition-colors">
+
+                    <div className="flex items-center gap-2 sm:gap-3 text-gray-400 hover:text-gray-700 transition-colors">
                         <div className="w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center">
-                            <div className="w-4 h-4 sm:w-5 sm:h-5 bg-purple-500 transform rotate-45 rounded-sm"></div>
+                            <div className="w-4 h-4 sm:w-5 sm:h-5 bg-gray-400 transform rotate-45 rounded-sm"></div>
                         </div>
                         <span className="text-lg sm:text-xl lg:text-2xl font-semibold">descript</span>
                     </div>
 
-                    {/* grammarly */}
-                    <div className="flex items-center gap-2 sm:gap-3 text-gray-500 hover:text-gray-700 transition-colors">
-                        <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-500 rounded-full flex items-center justify-center">
+
+                    <div className="flex items-center gap-2 sm:gap-3 text-gray-400 hover:text-gray-700 transition-colors">
+                        <div className="w-6 h-6 sm:w-8 sm:h-8 bg-gray-400 rounded-full flex items-center justify-center">
                             <span className="text-white text-xs sm:text-sm font-bold">G</span>
                         </div>
                         <span className="text-lg sm:text-xl lg:text-2xl font-semibold">grammarly</span>
